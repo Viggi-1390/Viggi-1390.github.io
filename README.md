@@ -1,4 +1,4 @@
-# 👋 Hey, I'm Viggi!
+# 👋 Hey, I'm Vighnesh but you can call me Viggi!
 
 ### 💻 BSc IT Student • Full-Stack Developer • Tech Enthusiast • 🏎️ Motorsport Fan
 
