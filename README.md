@@ -1,6 +1,6 @@
 #  Hey, I'm Vighnesh but you can call me Viggi!
 
-###  BSc IT Student • Full-Stack Developer • Tech Enthusiast • 🏎️ Motorsport Fan
+###  BSc IT Student • Full-Stack Developer • Tech Enthusiast •  Motorsport Fan
 
 > **Building projects, learning technologies, and turning ideas into code.**
 
