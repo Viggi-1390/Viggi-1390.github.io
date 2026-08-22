@@ -58,7 +58,6 @@
 | 📊 **[Result Database System](https://github.com/Viggi-1390/Result-Database-System)** | Student result management system | Python • Tkinter |
 | 🚗 **[Vehicle Service Management](https://github.com/Viggi-1390/VehicleServiceManagement)** | Vehicle service management application | Java • Database |
 | 📅 **[Meeting Management System](https://github.com/Viggi-1390/MeetingManagementSystem)** | Meeting scheduling and management system | Java • Database |
-| 🌐 **[My Portfolio](https://github.com/Viggi-1390/Viggi-1390.github.io)** | Personal developer portfolio | HTML • CSS • JavaScript |
 | 🛡️ **[SpamShield](https://github.com/Viggi-1390/SpamShield)** | Email spam detection system | Java • MySQL |
 ---
 
@@ -81,8 +80,6 @@ Cloud
 ```text
 🏁 Motorsport
 🎮 Gaming
-💻 Programming
-🤖 Artificial Intelligence
 🎵 Music
 📚 Learning New Technologies
 ```
@@ -98,9 +95,7 @@ Cloud
     🌐 Portfolio
   </a>
   &nbsp;&nbsp;•&nbsp;&nbsp;
-  <a href="https://github.com/Viggi-1390">
-    🐙 GitHub
-  </a>
+  
   &nbsp;&nbsp;•&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/vighnesh-name-731a273a1/">
     💼 LinkedIn
