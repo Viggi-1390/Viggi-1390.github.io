@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-sector">SECTOR&nbsp;&nbsp;01</div>
+  </nav>
+
+  <div class="hero">
+    <div class="hero-text">
+      <p class="hero-eyebrow">Full-stack developer</p>
+      <h1>
+        Built for<br />
+        <span class="name-accent">Every</span>
+        Track.
+      </h1>
+      <p class="hero-sub">
+        Developer with a passion for building things that perform. From Python back-ends to polished web UIs — engineered to spec, optimised to the limit.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="tacho-wrap">
+      <div class="tacho">
+        <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="200" cy="200" r="190" stroke="#1E1E1E" stroke-width="2"/>
+          <circle cx="200" cy="200" r="182" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+          <path d="M 46 297 A 160 160 0 1 1 354 297" stroke="#1E1E1E" stroke-width="12" stroke-linecap="round"/>
+          <path d="M 46 297 A 160 160 0 1 1 354 297" stroke="url(#arcGrad)" stroke-width="8" stroke-linecap="round" stroke-dasharray="503 503" stroke-dashoffset="0"/>
+          <g stroke="#C0C0C0" stroke-width="1.5">
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(-112.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(-87.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(-62.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(-37.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(-12.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(12.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(37.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(62.5 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="72" transform="rotate(87.5 200 200)"/>
+          </g>
+          <g stroke="rgba(192,192,192,0.3)" stroke-width="1">
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(-100 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(-75 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(-50 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(-25 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(0 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(25 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(50 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(75 200 200)"/>
+            <line x1="200" y1="52" x2="200" y2="62" transform="rotate(100 200 200)"/>
+          </g>
+          <g font-family="Orbitron,monospace" font-size="14" fill="#C0C0C0" text-anchor="middle">
+            <text transform="rotate(-112.5 200 200) translate(200 94) rotate(112.5)">1</text>
+            <text transform="rotate(-87.5 200 200)  translate(200 94) rotate(87.5)">2</text>
+            <text transform="rotate(-62.5 200 200)  translate(200 94) rotate(62.5)">3</text>
+            <text transform="rotate(-37.5 200 200)  translate(200 94) rotate(37.5)">4</text>
+            <text transform="rotate(-12.5 200 200)  translate(200 94) rotate(12.5)">5</text>
+            <text transform="rotate(12.5 200 200)   translate(200 94) rotate(-12.5)">6</text>
+            <text transform="rotate(37.5 200 200)   translate(200 94) rotate(-37.5)" fill="#E8001D">7</text>
+            <text transform="rotate(62.5 200 200)   translate(200 94) rotate(-62.5)" fill="#E8001D">8</text>
+            <text transform="rotate(87.5 200 200)   translate(200 94) rotate(-87.5)" fill="#E8001D">9</text>
+          </g>
+          <text x="200" y="155" font-family="Orbitron,monospace" font-size="10" fill="rgba(192,192,192,0.5)" text-anchor="middle" letter-spacing="3">×1000 RPM</text>
+
+          <!-- Needle: pivot point is 200,328. JS rotates around this point. -->
+          <g id="needle-group" transform="rotate(-140 200 328)">
+            <polygon points="200,85 196,328 204,328" fill="url(#needleGrad)" opacity="0.95"/>
+            <ellipse cx="200" cy="316" rx="10" ry="10" fill="#1A1A1A" stroke="#E8001D" stroke-width="1.5"/>
+            <circle cx="200" cy="328" r="16" fill="#141414" stroke="#E8001D" stroke-width="2"/>
+            <circle cx="200" cy="328" r="6" fill="#E8001D"/>
+          </g>
+
+          <path d="M 303 82 A 160 160 0 0 1 354 297" stroke="#E8001D" stroke-width="3" opacity="0.2" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="0%" gradientUnits="userSpaceOnUse">
+              <stop offset="0%"   stop-color="#2a0008"/>
+              <stop offset="70%"  stop-color="#8B0010"/>
+              <stop offset="100%" stop-color="#E8001D"/>
+            </linearGradient>
+            <linearGradient id="needleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%"   stop-color="#E8001D"/>
+              <stop offset="100%" stop-color="#ff3344"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <div class="tacho-rpm">
+          <div class="val" id="rpmDisplay">0000</div>
+          <div class="label">RPM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="telemetry-bar">
+    <div class="tele-item">
+      <span class="tele-label">Languages</span>
+      <span class="tele-val">8+</span>
+    </div>
+    <div class="tele-item">
+      <span class="tele-label">Projects on github</span>
+      <span class="tele-val">2</span>
+    </div>
+    <div class="tele-item">
+      <span class="tele-label">Years Coding</span>
+      <span class="tele-val">3+</span>
+    </div>
+    <div class="tele-item">
+      <span class="tele-label">Platform</span>
+      <span class="tele-val">Windows</span>
+    </div>
+    <div class="tele-item">
+      <span class="tele-label">Status</span>
+      <span class="tele-val" style="color: var(--red)">RACING</span>
+    </div>
+    <div class="tele-item">
+      <span class="tele-label">DRS</span>
+      <span class="tele-val">OPEN</span>
+    </div>
+  </div>
+
+  <section id="about">
+    <p class="section-eyebrow reveal">Driver Profile</p>
+    <h2 class="reveal">About Me</h2>
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="about-body">
+          <p>
+            I'm Vighnesh you can also call me VIGGI — a developer on an ambitious mission to master every type of programming language. Like a driver studying every circuit on the calendar, I approach each new language as a different track: its own character, its own demands its own reward when you nail the perfect corner.
+          </p>
+          <p>
+            My current garage (Specialty) spans Python, HTML/CSS/JS and GUI development with the throttle wide open toward new territories. I build on Windows, keep my tools sharp and believe that great software like great motorsport is won in the details.
+          </p>
+          <p>
+            Currently also learning backend programming — aka learning a new track.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div class="discipline-grid reveal">
+          <div class="discipline-card"><div class="disc-name">Formula&nbsp;1<br/>Precision</div></div>
+          <div class="discipline-card"><div class="disc-name">WEC<br/>Endurance</div></div>
+          <div class="discipline-card"><div class="disc-name">Rally<br/>Adaptability</div></div>
+          <div class="discipline-card"><div class="disc-name">MotoGP<br/>Balance</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="skills">
+    <div class="inner">
+      <p class="section-eyebrow reveal">Onboard Data</p>
+      <h2 class="reveal">Technical Stack</h2>
+      <div class="skill-tracks">
+        <div class="skill-track reveal">
+          <div class="skill-track-title">Languages</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-row">
+              <div class="skill-name">Python <span>80</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">JavaScript <span>60</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">HTML / CSS <span>88</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">SQL <span>75</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-track reveal">
+          <div class="skill-track-title">Frameworks & Tools</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-row">
+              <div class="skill-name">Tkinter / GUI <span>85</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Pandas <span>78</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:78%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Git / GitHub <span>82</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:82%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">VS Code <span>90</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-track reveal">
+          <div class="skill-track-title">Platform & Environment</div>
+          <div class="skill-bar-wrap">
+            <div class="skill-row">
+              <div class="skill-name">Windows <span>84</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:84%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">MySQL <span>76</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:76%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">Linux <span>86</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:86%"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-name">OOPs <span>80</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="projects">
+    <p class="section-eyebrow reveal">Career Stats</p>
+    <h2 class="reveal">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-banner" style="background: linear-gradient(135deg,#1a0005,#0a0a0a);">🗄️</div>
+        <div class="project-body">
+          <div class="project-tag">Python · MySQL · Tkinter</div>
+          <div class="project-title">Student Management System</div>
+          <p class="project-desc">A full-featured desktop app with dark VS Code-inspired UI. CRUD operations, CSV export, PyMySQL back-end and a clean Tkinter frontend built to handle real data at speed.</p>
+          <div class="project-chips">
+            <span class="chip">Python</span><span class="chip">Tkinter</span><span class="chip">PyMySQL</span><span class="chip">Pandas</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-banner" style="background: linear-gradient(135deg,#001a12,#0a0a0a);">🎂</div>
+        <div class="project-body">
+          <div class="project-tag">HTML · CSS · SVG</div>
+          <div class="project-title">Birthday Celebration Pages</div>
+          <p class="project-desc">Interactive themed web pages including a Snorlax SVG art piece, CSS keyframe animations, mobile responsive layouts.</p>
+          <div class="project-chips">
+            <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">SVG</span><span class="chip">Animations</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal">
+        <div class="project-banner" style="background: linear-gradient(135deg,#0a0a1a,#0a0a0a);">🌐</div>
+        <div class="project-body">
+          <div class="project-tag">Python · Java · MySQL</div>
+          <div class="project-title">Spam Shield Email Filter</div>
+          <p class="project-desc">A spam shield filter for protecting yourself from spam emails, it is web based, light weight program.</p>
+          <div class="project-chips">
+            <span class="chip">Python</span><span class="chip">Java</span><span class="chip">MySQL</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card reveal" style="border-style: dashed; opacity: 0.6;">
+        <div class="project-banner" style="background: var(--asphalt);">⚡</div>
+        <div class="project-body">
+          <div class="project-tag">In Progress</div>
+          <div class="project-title">Next Build — Coming</div>
+          <p class="project-desc">A new record being set. Stay tuned — the next project is on its way.</p>
+          <div class="project-chips"><span class="chip">TBA</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="contact">
+    <div class="inner">
+      <p class="section-eyebrow reveal">Pit Wall</p>
+      <h2 class="reveal">Get in Touch</h2>
+      <div class="contact-grid">
+        <div class="reveal contact-copy">
+          <p>Ready to build something that performs? Whether it's a project collab, a code review, or just talking shop about motorsports — the radio channel is open.</p>
+          <p style="margin-top:1rem; font-family: var(--f-display); font-size:0.65rem; letter-spacing:0.2em; color:var(--red); text-transform:uppercase;">— Box Box</p>
+        </div>
+        <div class="contact-links reveal">
+          <a href="mailto:vighnesh3908@gmail.com" class="contact-link">
+            <span class="contact-link-info">
+              <span class="contact-link-label">Email</span>
+              <span class="contact-link-val">vighnesh3908@gmail.com</span>
+            </span>
+          </a>
+          <a href="https://github.com/" class="contact-link" target="_blank">
+            <span class="contact-link-info">
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-val">github.com/viggi</span>
+            </span>
+          </a>
+          <a href="https://linkedin.com/" class="contact-link" target="_blank">
+            <span class="contact-link-info">
+              <span class="contact-link-label">LinkedIn</span>
+              <span class="contact-link-val">linkedin.com/in/viggi</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Viggi</div>
+    <div class="footer-copy">© 2026 — Lights out and away we go.</div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
