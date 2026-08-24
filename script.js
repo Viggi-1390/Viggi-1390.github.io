@@ -27,8 +27,8 @@
     const ANGLE_START    = -140;
     const ANGLE_OVERSHOOT =   55;
     const ANGLE_END      =   45;
-    const RPM_MAX        = 9200;
-    const RPM_TARGET     = 7800;
+    const RPM_MAX        = 12000;
+    const RPM_TARGET     = 9026;
     const DELAY_MS       =  500;
     const DURATION_MS    = 2200;
 
